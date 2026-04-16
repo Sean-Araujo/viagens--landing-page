@@ -5,6 +5,32 @@
     box-sizing: border-box;
 }
 
+h2 {
+    color: #b16802;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+
+h3{
+    color: #b16802;
+    font-size: 20px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+
+p{
+    font-size: 16px;
+    margin: 0 32px;
+    color: #000;
+}
+
+ul{
+    font-size: 16px;
+    margin-left: 48px;
+    color: #000;
+}
+
 .banner {
     background-image: url('https://98fmnatal.com.br/98-storage/2024/12/Lajedo-de-Soledade.jpg');
     background-size: cover;
@@ -12,12 +38,15 @@
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    border-bottom: solid 4px #b16802;
 }
 
 .banner h1 {
-    color: white;
-    padding: 24px 32px;
-    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+    text-align: right;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 32px 32px;
+    text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 
 #banner {
@@ -27,25 +56,90 @@
 nav {
     width: 100%;
     display: flex;
+    border-bottom: solid 4px #b16802;
     justify-content: left;
     align-items: left;
-    gap: 20px;
-    background-color: black;
+    gap: 24px;
+    background-color: #ffe9cb;
 }
 
 .nav-link {
-    color: #ffffff;
-    font-weight: semibold;
-    padding: 11px 24px;
-    border-radius: 16px;
+    color: #b16802;
+    letter-spacing: -1%;
+    padding: 11px 16px;
+    /* border-radius: 16px; */
     display: inline-block;
-    gap: 20px;
-    margin: 32px 16px;
+    gap: 12px;
+    margin: 16px 12px;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    background-color: orangered;
-    color: black;
+    /* background-color: #EED7B6; */
+    text-decoration: underline;
+    /* background-color: #e7b062; */
+    color: #ff7b00;
+    transition: 0.3s;
+}
+
+#minha-viagem {
+    background-color: #ffe9cb;
+    padding: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    padding: 32px 0;
+    border-bottom: solid 4px #b16802;
+}
+
+#nos-encontre {
+    background-color: #ffe9cb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    padding: 32px 0;
+    border-bottom: solid 4px #b16802;
+}
+
+#conselhos {
+    background-color: #ffe9cb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    padding: 32px 0;
+    border-bottom: solid 4px #b16802;
+}
+
+footer{
+    background-color: #ffe9cb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    padding: 32px 0;
+    border-bottom: solid 4px #b16802;
+}
+
+.back-to-top {
+    align-items: flex-end;
+    margin-left: 1240px;
+    margin-top: 12px;
+    display: flex;
+    padding: 8px 16px;
+    color: #b16802;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+    color: #ff7b00;
     transition: 0.3s;
 }
