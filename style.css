@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #e7b062;
+}
+
 h2 {
     color: #b16802;
     font-size: 24px;
@@ -94,9 +98,7 @@ nav {
 }
 
 .nav-link:hover {
-    /* background-color: #EED7B6; */
     text-decoration: underline;
-    /* background-color: #e7b062; */
     color: #ff7b00;
     transition: 0.3s;
 }
@@ -104,35 +106,39 @@ nav {
 #minha-viagem {
     background-color: #ffe9cb;
     padding: 32px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border-bottom: solid 4px #b16802;
+    border: solid 4px #b16802;
+    border-radius: 16px;
+    margin: 32px;
 }
 
 #nos-encontre {
     background-color: #ffe9cb;
-    width: 100%;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border-bottom: solid 4px #b16802;
+    border: solid 4px #b16802;
+    border-radius: 16px;
+    margin: 32px;
 }
 
 #conselhos {
     background-color: #ffe9cb;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border-bottom: solid 4px #b16802;
+    border: solid 4px #b16802;
+    border-radius: 16px;
+    margin: 32px;
 }
 
 footer{
@@ -147,14 +153,12 @@ footer{
 }
 
 .back-to-top {
-    align-items: flex-end;
-    margin-left: 1240px;
-    margin-top: 12px;
     display: flex;
     padding: 8px 16px;
     color: #b16802;
     text-decoration: none;
     border-radius: 4px;
+    margin-left: 18px;
 }
 
 .back-to-top:hover {
