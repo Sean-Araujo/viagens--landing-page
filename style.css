@@ -1,171 +1,133 @@
-* {
-    font-family: Inter, sans-serif;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Inter, sans-serif;
 }
 
-body {
-    background-color: #e4bd86;
+body{
+    background-color: #ffeeca;
 }
 
 h2 {
-    color: #b16802;
+    color: #231c00;
     font-size: 24px;
-    margin-left: 32px;
-    margin-bottom: 8px;
-}
-
-h3{
-    color: #b16802;
-    font-size: 20px;
-    margin-left: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 p{
+    color: #231c00;
     font-size: 16px;
-    margin: 0 32px;
-    color: #000;
+    line-height: 1.5;
+}
+ ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #231c00;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #fae5b9;
+    border: #231c00 solid 3px;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 20px auto;
 }
 
-ul{
-    font-size: 16px;
-    margin-left: 48px;
-    color: #000000;
-}
-
-.btn {
-    background-color: #b16802;
-    font-weight: bold;
-    color: #fff;
-    padding: 16px 32px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.nav-link{
     text-decoration: none;
-    display: inline-block;
-    margin-top: 16px;
+    color: #231c00;
+    background-color: #fcc142;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: #231c00 solid 2px;
+    border-radius: 8px;
+    margin: 0 8px;
 }
 
-.btn:hover {
-    background-color: #e7b062;
+.nav-link:hover{
+    background-color: #ffd478;
+    box-shadow: 2px 2px 0px #231c00;
     transition: 0.3s;
-    color: #b16802;
+}
+
+header h1{
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 100px;
 }
 
 .banner {
-    background-image: url('https://98fmnatal.com.br/98-storage/2024/12/Lajedo-de-Soledade.jpg');
+    background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAEgQiiKVvAP4PhK6Rb0UMXZZWBJGC9lKYkzRLEZePKQNdE6DBhYTB5AakQCgbxXl6im8NZs7hZiuEGIz5X4T5kIi7z8_BmZIeGK3XZZepinRhgemnDFhWhkbaa2KhKSfVHNJz2b=s1360-w1360-h1020-rw');
     background-size: cover;
-    height: 677px;
-    width: 100%;
-    background-repeat: no-repeat;
     background-position: center;
-    border-bottom: solid 4px #f17800;
+    margin: 20px 32px;
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 16px;
+    border: #231c00 solid 3px;
+    margin-bottom: 20px;
 }
 
-.banner h1 {
-    width: 500px;
-    background-color: #b16802;
-    font-size: 24px;
-    text-align: left;
+.banner h1{
+    color: #231c00;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 238, 202, 0.8);
+    border-radius: 12px 12px 0 0;
+    margin: auto;
+}
+
+.section-card{
+    background-color: #fae5b9;
+    border: #231c00 solid 3px;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 32px;
+}
+
+.back-to-top{
+    width: fit-content;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    padding: 10px 20px;
+    background-color: #fcc142;
+    color: #231c00;
     font-weight: bold;
-    color: #ffffff;
-    padding: 32px 32px;
-    /* text-shadow: 0.1em 0.1em 0.2em #000000; */
-}
-
-#banner {
-    /* background-color: rgba(0, 0, 0, 5.0); */
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    border-bottom: solid 4px #f17800;
-    justify-content: left;
-    align-items: left;
-    gap: 24px;
-}
-
-.nav-link {
-    color: #b16802;
-    letter-spacing: -1%;
-    padding: 11px 16px;
-    /* border-radius: 16px; */
-    display: inline-block;
-    gap: 12px;
-    margin: 16px 12px;
+    font-size: 14px;
+    border: #231c00 solid 2px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    color: #ff7b00;
+.back-to-top:hover{
+    background-color: #ffd478;
+    box-shadow: 2px 2px 0px #231c00;
     transition: 0.3s;
-}
-
-#minha-viagem {
-    background-color: #ffe9cb;
-    padding: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 16px;
-    padding: 32px 0;
-    border: solid 4px #f17800;
-    border-radius: 16px;
-    margin: 32px;
-    box-shadow: 8px 8px 0px #523000;
-}
-
-#nos-encontre {
-    background-color: #ffe9cb;
-    padding: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 16px;
-    padding: 32px 0;
-    border: solid 4px #f17800;
-    border-radius: 16px;
-    margin: 32px;
-    box-shadow: 8px 8px 0px #523000;
-}
-
-#conselhos {
-    background-color: #ffe9cb;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 16px;
-    padding: 32px 0;
-    border: solid 4px #f17800;
-    border-radius: 16px;
-    margin: 32px;
-    box-shadow: 8px 8px 0px #523000;
 }
 
 footer{
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 16px;
-    padding: 32px 0;
-}
-
-.back-to-top {
-    display: flex;
-    padding: 8px 16px;
-    color: #b16802;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-left: 18px;
-}
-
-.back-to-top:hover {
-    text-decoration: underline;
-    color: #ff7b00;
-    transition: 0.3s;
+    justify-content: center;
+    padding: 10px 24px;
+    background-color: #fae5b9;
+    border: #231c00 solid 3px;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 20px auto;
 }
