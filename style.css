@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #e7b062;
+    background-color: #e4bd86;
 }
 
 h2 {
@@ -61,30 +61,31 @@ ul{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    border-bottom: solid 4px #b16802;
+    border-bottom: solid 4px #f17800;
 }
 
 .banner h1 {
+    width: 500px;
+    background-color: #b16802;
     font-size: 24px;
-    text-align: right;
+    text-align: left;
     font-weight: bold;
     color: #ffffff;
     padding: 32px 32px;
-    text-shadow: 0.1em 0.1em 0.2em #000000;
+    /* text-shadow: 0.1em 0.1em 0.2em #000000; */
 }
 
 #banner {
-    background-color: rgba(0, 0, 0, 5.0);
+    /* background-color: rgba(0, 0, 0, 5.0); */
 }
 
 nav {
     width: 100%;
     display: flex;
-    border-bottom: solid 4px #b16802;
+    border-bottom: solid 4px #f17800;
     justify-content: left;
     align-items: left;
     gap: 24px;
-    background-color: #ffe9cb;
 }
 
 .nav-link {
@@ -112,9 +113,10 @@ nav {
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border: solid 4px #b16802;
+    border: solid 4px #f17800;
     border-radius: 16px;
     margin: 32px;
+    box-shadow: 8px 8px 0px #523000;
 }
 
 #nos-encontre {
@@ -125,9 +127,10 @@ nav {
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border: solid 4px #b16802;
+    border: solid 4px #f17800;
     border-radius: 16px;
     margin: 32px;
+    box-shadow: 8px 8px 0px #523000;
 }
 
 #conselhos {
@@ -137,9 +140,10 @@ nav {
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border: solid 4px #b16802;
+    border: solid 4px #f17800;
     border-radius: 16px;
     margin: 32px;
+    box-shadow: 8px 8px 0px #523000;
 }
 
 footer{
