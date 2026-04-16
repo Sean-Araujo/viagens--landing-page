@@ -65,6 +65,7 @@ ul{
 }
 
 .banner h1 {
+    font-size: 24px;
     text-align: right;
     font-weight: bold;
     color: #ffffff;
@@ -142,14 +143,12 @@ nav {
 }
 
 footer{
-    background-color: #ffe9cb;
-    width: 100%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 16px;
     padding: 32px 0;
-    border-bottom: solid 4px #b16802;
 }
 
 .back-to-top {
