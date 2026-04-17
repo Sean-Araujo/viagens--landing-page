@@ -19,7 +19,9 @@ p{
     color: #231c00;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 8px;
 }
+
  ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -93,6 +95,8 @@ header h1{
 }
 
 .section-card{
+    display: flex;
+    flex-direction: column;
     background-color: #fae5b9;
     border: #231c00 solid 3px;
     border-radius: 16px;
@@ -102,7 +106,7 @@ header h1{
 
 .back-to-top{
     width: fit-content;
-    display: block;
+    display: inline-block;
     text-align: center;
     margin: 8px auto;
     padding: 10px 20px;
